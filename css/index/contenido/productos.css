@@ -1,4 +1,4 @@
-.productos__perifericos--lista{
+.productos__lista{
     display: flex;
     justify-content: space-between;
 }
