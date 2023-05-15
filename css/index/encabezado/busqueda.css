@@ -3,3 +3,23 @@
     border-radius: 8px 8px;
     padding: .2rem;
 }
+ 
+.input__busqueda{
+    font-size: 1.3rem;
+    background-color: transparent;
+    border: none;
+}
+
+.input__busqueda:focus{
+    outline: none;
+}
+
+.input__busqueda--boton{
+    background-color: transparent;
+    border: none;
+}
+
+.input__busqueda--boton:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
