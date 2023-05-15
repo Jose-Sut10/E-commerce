@@ -7,4 +7,11 @@
 .encabezado__contenedor--promociones{
     width: 90vw;
     margin: 0 auto;
+    height: 25rem;
+}
+
+.disenio{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
