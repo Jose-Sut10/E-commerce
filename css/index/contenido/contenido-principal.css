@@ -1,0 +1,36 @@
+.contenido{
+    padding: 20px 0;
+}
+
+.contenido__contenedor{
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.informacion--perifericos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo--productos{
+    font-size: 2rem;
+}
+
+.boton__verTodo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    width: 8.5rem;
+    height: 3rem;
+}
+
+.boton__verTodo--titulo{
+    font-size: 1.5rem;
+    margin-right: .75rem;
+}
+
+.boton__verTodo:hover{
+    cursor: pointer;
+}
