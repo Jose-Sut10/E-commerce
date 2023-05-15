@@ -9,9 +9,13 @@
     background-color: var(--color-encabezado);
 }
 
-.encabezado__contenedor--principal{
+.encabezado__contenedor{
     width: 90vw;
     margin: 0 auto;
+}
+
+.encabezado__contenedor--principal{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }

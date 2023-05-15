@@ -1,0 +1,12 @@
+.boton__registro{
+    width: 8rem;
+    height: 3rem;
+    font-size: 1.7rem;
+    border-radius: 10px;
+    background-color: transparent;
+    font-family: var(--letras-marca);
+}
+
+.boton__registro:hover{
+    cursor: pointer;
+}
