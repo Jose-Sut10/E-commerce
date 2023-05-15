@@ -10,3 +10,20 @@
     font-size: 2.5rem;
     color: var(--color-blanco);
 }
+
+.contenedor__promociones--boton{
+    margin-top: 20px;
+}
+
+.boton__promociones{
+    width: 12.5rem;
+    height: 4.3rem;
+    font-size: 1.7rem;
+    background-color: var(--color-botones);
+    border: 5px solid var(--color-botones);
+    font-family: var(--letras-marca);
+}
+
+.boton__promociones:hover{
+    cursor: pointer;
+}
