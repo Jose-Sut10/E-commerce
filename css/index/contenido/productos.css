@@ -1,3 +1,7 @@
+.contenido__contenedor--productos{
+    margin-bottom: 20px;
+}
+
 .productos__lista{
     display: flex;
     justify-content: space-between;
