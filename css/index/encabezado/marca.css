@@ -1,0 +1,8 @@
+.encabezado--marca{
+    display: flex;
+    align-items: center;
+}
+
+.logo__marca{
+    width: 5rem;
+}

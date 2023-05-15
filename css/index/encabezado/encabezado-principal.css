@@ -1,0 +1,13 @@
+:root{
+    --color-encabezado: #256412; 
+}
+
+.encabezado{
+    padding: 20px 0;
+    background-color: var(--color-encabezado);
+}
+
+.encabezado__contenedor--principal{
+    width: 90vw;
+    margin: 0 auto;
+}
