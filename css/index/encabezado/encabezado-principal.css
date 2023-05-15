@@ -1,7 +1,9 @@
 :root{
-    --color-encabezado: #256412; 
-    --letras-marca: 'Alkatra', cursive;
+    --color-encabezado: #0a4d68; 
     --color-blanco: #ffffff; 
+    --color-diferenciales: #05BFDB;
+    --color-botones: #36b6f5; 
+    --letras-marca: 'Alkatra', cursive;
 }
 
 .encabezado{

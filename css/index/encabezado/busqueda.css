@@ -1,7 +1,7 @@
 .encabezado__fomulario{
     background-color: var(--color-blanco);
     border-radius: 8px 8px;
-    padding: .2rem;
+    padding: .4rem .2rem;
 }
  
 .input__busqueda{

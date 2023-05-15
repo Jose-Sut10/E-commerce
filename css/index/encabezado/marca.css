@@ -1,5 +1,5 @@
 .encabezado__contenedor--marcaYbusqueda{
-    width: 50%;
+    width: 55%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -17,4 +17,10 @@
 
 .titulo--marca{
     font-family: var(--letras-marca);
+    color: var(--color-blanco);
+    font-size: 2.7rem;
+}
+
+.nombre1{
+    color: var(--color-diferenciales);
 }

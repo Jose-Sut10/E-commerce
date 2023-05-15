@@ -1,9 +1,10 @@
 .boton__registro{
-    width: 8rem;
-    height: 3rem;
-    font-size: 1.7rem;
+    width: 9rem;
+    height: 3.5rem;
+    font-size: 2rem;
     border-radius: 10px;
-    background-color: transparent;
+    background-color: var(--color-botones);
+    border: 10px solid var(--color-botones);
     font-family: var(--letras-marca);
 }
 
