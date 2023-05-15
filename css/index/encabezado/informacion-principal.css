@@ -1,0 +1,10 @@
+.encabezado__promociones{
+    padding: 20px 0;
+    background-image: url("/imagenes/fondo.png");
+    background-size: cover;
+}
+
+.encabezado__contenedor--promociones{
+    width: 90vw;
+    margin: 0 auto;
+}
