@@ -1,0 +1,5 @@
+.encabezado__fomulario{
+    background-color: var(--color-blanco);
+    border-radius: 8px 8px;
+    padding: .2rem;
+}

@@ -1,3 +1,8 @@
+.encabezado__contenedor--marcaYbusqueda{
+    display: flex;
+    align-items: center;
+}
+
 .encabezado--marca{
     display: flex;
     align-items: center;
@@ -5,4 +10,9 @@
 
 .logo__marca{
     width: 5rem;
+    margin-right: 1rem;
+}
+
+.titulo--marca{
+    font-family: var(--letras-marca);
 }
