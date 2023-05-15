@@ -13,6 +13,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Chela+One&family=Teko&family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header class="encabezado">
+        <article class="encabezado__contenedor">
+            <section class="encabezado__contenedor--principal">
+                <div class="marcaYbusqueda">
+                    <div class="encabezado--marca">
+                        <img src="./imagenes/marca/control.svg" alt="Logo" class="logo">
+                        <h1 class="titulo--marca"><span class="nombre1">Alura</span>Geek</h1>
+                    </div>
+                    <div class="encabezado__fomulario">
+                        <form action="" class="formulario--busqueda">
+                            <input name="busqueda" id="busqueda" class="input__busqueda" type="text" placeholder="¿Qué deseas buscar?">
+                            <button type="search" class="input__busqueda--boton"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="encabezado--registro">
+                    <button type="submit" class="boton__registro" onclick="registro()">Login</button>
+                </div>
+            </section>
+        </article>
+    </header>
 </body>
 </html>
