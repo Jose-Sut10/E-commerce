@@ -1,0 +1,51 @@
+.productos__perifericos--lista{
+    display: flex;
+    justify-content: space-between;
+}
+
+.produtos__lista--items{
+    width: 14%;
+    height: 18rem;
+    padding-top: 1rem;
+}
+
+.productos__lista--imagen{
+    width: 9.5rem;
+    height: 7rem;
+}
+
+.productos__lista--caja{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productos__lista--nombre{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    margin-bottom: .5rem;
+    font-family: var(--letras-contenido);
+}
+
+.productos__lista--precio{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-family: var(--letras-contenido);
+}
+
+.boton__verProducto{
+    background-color: transparent;
+    border: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 1.6rem;
+    color: #2A7AE4;
+    font-family: var(--letras-marca);
+}
+
+.boton__verProducto:hover{
+    cursor: pointer;
+}
