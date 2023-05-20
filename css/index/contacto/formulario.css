@@ -1,0 +1,52 @@
+.contenedor__general--formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor__general--titulo{
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: .6rem;
+    color: var(--color-blanco);
+}
+
+.input_padron{
+    width: 25rem;
+    height: 2rem;
+    border: 1px solid var(--color-negro);
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+.textarea{
+    margin: 1.5rem 0;
+    height: 6rem;
+    resize: none;
+}
+
+.input_padron:focus{
+    outline: none;
+}
+
+.textarea:focus{
+    outline: none;
+}
+
+.caja__boton{
+    display: flex;
+    justify-content: center;
+}
+
+.boton__enviar{
+    width: 9rem;
+    height: 3rem;
+    font-size: 1.7rem;
+    background-color: var(--color-botones);
+    border-radius: 10px;
+    border: none;
+    font-family: var(--letras-marca);
+}
+
+.boton__enviar:hover{
+    cursor: pointer;
+}
