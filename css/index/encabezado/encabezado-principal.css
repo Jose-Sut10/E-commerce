@@ -1,8 +1,10 @@
 :root{
     --color-encabezado: #0a4d68; 
     --color-blanco: #ffffff; 
+    --color-negro: #000000; 
     --color-diferenciales: #05BFDB;
     --color-botones: #36b6f5; 
+    --color-footer: #67afff;
     --letras-marca: 'Alkatra', cursive;
     --letras-informacion: 'Chelo One', cursive;
     --letras-contenido: 'Zillo Slab', cursive;
