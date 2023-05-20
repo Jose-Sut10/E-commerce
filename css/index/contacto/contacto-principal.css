@@ -13,4 +13,5 @@
 .contacto--marca{
     display: flex;
     align-items: center;
+    height: 100%;
 }
