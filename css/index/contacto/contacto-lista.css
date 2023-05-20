@@ -1,0 +1,18 @@
+.contenedor__general--informacion{
+    height: 100%;
+}
+
+.contenedor__general--lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contenedor__general--items{
+    font-size: 1.5rem;
+}
+
+.contenedor__general--links{
+    color: var(--color-blanco);
+    text-decoration: none;
+}

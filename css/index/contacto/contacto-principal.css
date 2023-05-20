@@ -2,3 +2,15 @@
     padding: 20px 0;
     background-color: var(--color-encabezado);
 }
+
+.contacto__contenedor{
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacto--marca{
+    display: flex;
+    align-items: center;
+}
