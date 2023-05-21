@@ -45,12 +45,17 @@
                 <div class="contenido__contenedor--datos">
                     <h2 class="encabezado__formulario--titulo">Agregar nuevo producto</h2>
                     <form action="" class="contenido__contenedor--formulario">
-                        <label for="name" class="nombre">Usuario:</label>
-                        <input name="name" id="name" class="input__padron" type="text" placeholder="Escriba su correo electrónico: " data-nombre required>
-                        <label for="password" class="nombre">Contraseña: </label>
-                        <input name="password" id="password" class="input__padron" type="password" placeholder="Escriba su contraseña: " data-password required>
+                        <div class="informacion__imagen">
+                            <label for="name" class="nombre">Usuario:</label>
+                            <input name="name" id="name" class="input__padron" type="text" placeholder="Escriba su correo electrónico: " data-nombre required>
+                        </div>
+                        <div class="informacion__categoria">
+                            <label for="password" class="nombre">Contraseña: </label>
+                            <input name="password" id="password" class="input__padron" type="password" placeholder="Escriba su contraseña: " data-password required>
+                        </div>
+                        
                         <div class="caja__boton">
-                            <button type="submit" class="boton__entrar" data-from-btnEntrar>Entrar</button>
+                            <button type="submit" class="boton__entrar" data-from-btnEntrar>Agregar Producto</button>
                         </div>
                     </form>
                 </div>
