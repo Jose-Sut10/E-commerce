@@ -15,7 +15,7 @@ cliente0.password = "Bodoque05/11";
 
 function validacion(usuario,password){
     if(usuario == cliente0.nombre && password==cliente0.password){
-        console.log("BIENVENIDO"); 
+        console.log("bienvenido");          
     }else{
         console.log("ERROR"); 
     }
@@ -28,5 +28,5 @@ const entrar = document.querySelector('[data-from-btnEntrar]');
 entrar.addEventListener('click',function entrada(){
     const usuario = document.querySelector('[data-from-nombre]'); 
     const password = document.querySelector('[data-from-password]'); 
-    validacion(usuario.value, password.value); 
+    validacion(usuario.value, password.value);
 }); 
