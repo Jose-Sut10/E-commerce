@@ -31,3 +31,20 @@
     width: 40%;
     height: 5rem;
 }
+
+.boton__menu{
+    width: 18rem;
+    height: 4.5rem;
+    background-color: var(--color-botones);
+    border: 2px solid var(--color-botones);
+    font-size: 1.8rem;
+    font-family: var(--letras-marca);
+}
+
+.menu{
+    padding: 1.5rem;
+}
+
+.boton__menu:hover{
+    cursor: pointer;
+}
