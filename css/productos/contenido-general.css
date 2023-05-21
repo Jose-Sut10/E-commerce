@@ -1,0 +1,24 @@
+.boton__agregar{
+    background-color: var(--color-botones);
+    border-color: var(--color-botones);
+    font-size: 1.6rem;
+    width: 16rem;
+    height: 4.3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: var(--letras-marca);
+}
+
+.disenio{
+    align-items: center;
+    margin: 1.5rem 0 2.4rem 0;
+}
+
+.plus{
+    font-size: 2.5rem;
+}
+
+.boton__agregar:hover{
+    cursor: pointer;
+}
