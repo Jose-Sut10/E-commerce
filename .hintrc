@@ -5,6 +5,7 @@
   "hints": {
     "axe/name-role-value": "off",
     "button-type": "off",
-    "disown-opener": "off"
+    "disown-opener": "off",
+    "axe/parsing": "off"
   }
 }

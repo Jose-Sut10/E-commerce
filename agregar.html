@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="./css/index/contacto/formulario.css">
     <link rel="stylesheet" href="./css/index/footer/footer-principal.css">
     <link rel="stylesheet" href="./css/login/registro.css">
+    <link rel="stylesheet" href="./css/productos/agregar.css">
 </head>
 <body>
     <header class="encabezado">
@@ -45,15 +46,26 @@
                 <div class="contenido__contenedor--datos">
                     <h2 class="encabezado__formulario--titulo">Agregar nuevo producto</h2>
                     <form action="" class="contenido__contenedor--formulario">
-                        <div class="informacion__imagen">
-                            <label for="name" class="nombre">Usuario:</label>
-                            <input name="name" id="name" class="input__padron" type="text" placeholder="Escriba su correo electrónico: " data-nombre required>
+                        <div class="informacion__agregar">
+                            <label for="name" class="nombre titulo__agregar">URL de la imagen:</label>
+                            <input name="name" id="name" class="input__padron agregar" type="text" placeholder="Ejemplo: https://imagen.jpg " data-nombre required>
                         </div>
-                        <div class="informacion__categoria">
-                            <label for="password" class="nombre">Contraseña: </label>
-                            <input name="password" id="password" class="input__padron" type="password" placeholder="Escriba su contraseña: " data-password required>
+                        <div class="informacion__agregar">
+                            <label for="password" class="nombre titulo__agregar">Categoría: </label>
+                            <input name="password" id="password" class="input__padron agregar" type="text" placeholder="Ejemplo: cómputo, periféricos: " data-password required>
                         </div>
-                        
+                        <div class="informacion__agregar">
+                            <label for="password" class="nombre titulo__agregar">Nombre del producto: </label>
+                            <input name="password" id="password" class="input__padron agregar" type="text" placeholder="Ejemplo: Pantalla AOC: " data-password required>
+                        </div>
+                        <div class="informacion__agregar">
+                            <label for="password" class="nombre titulo__agregar">Precio del producto: </label>
+                            <input name="password" id="password" class="input__padron agregar" type="text" placeholder="Ejemplo: Q800.00: " data-password required>
+                        </div>
+                        <div class="informacion__agregar">
+                            <label for="password" class="nombre titulo__agregar">Descripción del producto: </label>
+                            <input name="password" id="password" class="input__padron agregar" type="text" placeholder="Ejemplo: Q800.00" data-password required>
+                        </div>
                         <div class="caja__boton">
                             <button type="submit" class="boton__entrar" data-from-btnEntrar>Agregar Producto</button>
                         </div>
