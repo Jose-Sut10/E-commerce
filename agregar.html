@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek - Registro</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <script src="https://kit.fontawesome.com/d85ad1d512.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Chela+One&family=Teko&family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index/encabezado/encabezado-principal.css">
+    <link rel="stylesheet" href="./css/index/encabezado/busqueda.css">
+    <link rel="stylesheet" href="./css/index/encabezado/marca.css">
+    <link rel="stylesheet" href="./css/index/contacto/contacto-principal.css">
+    <link rel="stylesheet" href="./css/index/contacto/contacto-lista.css">
+    <link rel="stylesheet" href="./css/index/contacto/formulario.css">
+    <link rel="stylesheet" href="./css/index/footer/footer-principal.css">
+    <link rel="stylesheet" href="./css/login/registro.css">
+</head>
+<body>
+    <header class="encabezado">
+        <article class="encabezado__contenedor">
+            <section class="encabezado__contenedor--principal">
+                <div class="encabezado__contenedor--marcaYbusqueda">
+                    <div class="encabezado--marca">
+                        <img src="./imagenes/marca/control.svg" alt="Logo" class="logo__marca">
+                        <h1 class="titulo--marca"><span class="nombre1">Alura</span>Geek</h1>
+                    </div>
+                    <div class="encabezado__fomulario">
+                        <form action="" class="formulario--busqueda">
+                            <input name="busqueda" id="busqueda" class="input__busqueda" type="text" placeholder="¿Qué deseas buscar?">
+                            <button type="search" class="input__busqueda--boton"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </header>
+    <main class="contenido">
+        <article class="contenido__contenedor">
+            <section class="contenido__contenedor--registro">
+                <div class="contenido__contenedor--datos">
+                    <h2 class="encabezado__formulario--titulo">Agregar nuevo producto</h2>
+                    <form action="" class="contenido__contenedor--formulario">
+                        <label for="name" class="nombre">Usuario:</label>
+                        <input name="name" id="name" class="input__padron" type="text" placeholder="Escriba su correo electrónico: " data-nombre required>
+                        <label for="password" class="nombre">Contraseña: </label>
+                        <input name="password" id="password" class="input__padron" type="password" placeholder="Escriba su contraseña: " data-password required>
+                        <div class="caja__boton">
+                            <button type="submit" class="boton__entrar" data-from-btnEntrar>Entrar</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </article>
+        <section class="contacto">
+            <div class="contacto__contenedor">
+                <div class="contacto--marca">
+                    <img src="./imagenes/marca/control.svg" alt="Logo" class="logo__marca">
+                    <h1 class="titulo--marca"><span class="nombre1">Alura</span>Geek</h1>
+                </div>
+                <div class="contenedor__general--informacion">
+                    <ul class="contenedor__general--lista">
+                        <li class="contenedor__general--items">
+                            <a href="" class="contenedor__general--links">Quienes somos</a>
+                        </li>
+                        <li class="contenedor__general--items">
+                            <a href="" class="contenedor__general--links">Política de privacidad</a>
+                        </li>
+                        <li class="contenedor__general--items">
+                            <a href="" class="contenedor__general--links">Programa de fidelidad</a>
+                        </li>
+                        <li class="contenedor__general--items">
+                            <a href="" class="contenedor__general--links">Nuestras Tiendas</a>
+                        </li>
+                        <li class="contenedor__general--items">
+                            <a href="" class="contenedor__general--links">Quiero ser franquiciado</a>
+                        </li>
+                        <li class="contenedor__general--items">
+                            <a href="" class="contenedor__general--links">Anúnciese aquí</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contenedor__general--contacto">
+                    <h3 class="contenedor__general--titulo">Hable con nosotros</h3>
+                    <form action="" class="contenedor__general--formulario">
+                        <input type="text" name="nombre" class="input_padron" placeholder=" Nombre Completo:" data-tipo="nombre">
+                        <textarea class="input_padron textarea" name="mensaje" placeholder=" Mensaje:" data-tipo="mensaje"></textarea>  
+                        
+                        <div class="caja__boton">
+                            <button type="submit" class="boton__enviar">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="footer__contenedor">
+            <div class="derechos">
+                <p class="descripcion--derechos">&copy 2023 Todos los derechos reservados. Desarrollado por <a href="https://jose-sut10.github.io/Portafolio-personal/" target="_blank" class="link__footer">JDesigns</a></p>
+            </div>
+        </section>
+    </footer>
+    <script src="./js/login.js"></script>
+</body>
+</html>

@@ -1,35 +1,25 @@
-class datosUsuario{
+class prodcuto{
     #nombre; 
-    #password; 
+    #precio; 
+    #categoria;
 
     constructor(){
         this.#nombre = ""; 
-        this.#password = ""; 
+        this.#precio = 0;
+        this.#categoria = ""; 
     }
 }
-const entrar = document.querySelector('[data-from-btnEntrar]');
+const agregar = document.querySelector('[data-btnAgregar]');
 
-const cliente0 = new datosUsuario(); 
-const dato1 = cliente0.nombre = "nohemi914@gmail.com"; 
-const dato2 = cliente0.password = "Bodoque05/11";  
-
-const registroDatos = (evento)=>{
-    evento.preventDefault(); 
-    const usuario = document.querySelector('[data-nombre]'); 
-    const password = document.querySelector('[data-password]'); 
-    
-    datosCliente(usuario.value, password.value);  
+const ingreso = (evento)=>{
+    location.href = "agregar.html";    
 };
 
-entrar.addEventListener('click', registroDatos); 
-
-function datosCliente(nombre, password){
-    const usuario = nombre; 
-    const contrasenhia = password; 
-
-    if(usuario == dato1 && contrasenhia==dato2){  
-        location.href = "productos.html";        
-    }else{
-        console.log("ERROR"); 
-    }
+const agregarProducto = (evento)=>{
+    const nombre = document.querySelector('[data-nombre]'); 
+    const categoria = document.querySelector('[data-categoria]'); 
+    const precio = document.querySelector('[data-precio]'); 
+    const descripcion = document.querySelector('[data-descripcion]');  
 }; 
+
+agregar.addEventListener('click', ingreso); 
